@@ -101,12 +101,26 @@ def fib_yield(n=None):
     first n fibonacci numbers.
     If n is None, then the generator is infinite.
     '''
-    if n is None:
-        n = 100000
     f0 = 0
     f1 = 1
-    for i in range(n):
-        f2 = f1 + f0
-        f0 = f1
-        f1 = f2
-        yield f0
+    if n is None:
+        while True:
+            f2 = f1 + f0
+            f0 = f1
+            f1 = f2
+            yield f0
+    else:
+        for i in range(n):
+            f2 = f1 + f0
+            f0 = f1
+            f1 = f2
+            yield f0
+    # if n is None:
+    #     n = 100000
+    # f0 = 0
+    # f1 = 1
+    # for i in range(n):
+    #     f2 = f1 + f0
+    #     f0 = f1
+    #     f1 = f2
+    #     yield f0
