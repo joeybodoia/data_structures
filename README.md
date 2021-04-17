@@ -7,6 +7,7 @@ Build status:
 1. [![](https://github.com/joeybodoia/data_structures/workflows/tests-BST/badge.svg)](https://github.com/joeybodoia/data_structures/actions?query=workflow%3Atests-BST)
 1. [![](https://github.com/joeybodoia/data_structures/workflows/tests-BinaryTree/badge.svg)](https://github.com/joeybodoia/data_structures/actions?query=workflow%3Atests-BinaryTree)
 
+1. [![](https://github.com/joeybodoia/data_structures/workflows/tests-AVLTree/badge.svg)](https://github.com/joeybodoia/data_structures/actions?query=workflow%3Atests-AVLTree)
 
 
 
