@@ -10,6 +10,7 @@ Build status:
 1. [![](https://github.com/joeybodoia/data_structures/workflows/tests-AVLTree/badge.svg)](https://github.com/joeybodoia/data_structures/actions?query=workflow%3Atests-AVLTree)
 
 
+1. [![](https://github.com/joeybodoia/data_structures/workflows/tests-Heap/badge.svg)](https://github.com/joeybodoia/data_structures/actions?query=workflow%3Atests-Heap)
 
 
 
